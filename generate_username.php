@@ -1,3 +1,4 @@
+<?php
 //===========================
 //PHP随机生成用户名和随机密码
 //===========================
@@ -51,3 +52,5 @@ function generate_username( $length = 6 ) {
 $userId = 'user'.generate_username(6); 
 
 $pwd = create_password(9); 
+
+?>
